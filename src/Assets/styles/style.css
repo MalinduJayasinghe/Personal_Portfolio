@@ -76,9 +76,10 @@ body {
 }
 
 .home-content > .button{
+    display: flex;
+    justify-content: space-between;
     width: 345px;
     height: 50px;
-    background: yellowgreen;
 }
 
 .button > a{
