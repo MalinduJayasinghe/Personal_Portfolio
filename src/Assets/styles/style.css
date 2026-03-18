@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+/* Full Project styling */
 * {
     margin: 0;
     padding: 0;
@@ -7,11 +8,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* Body styling */
 body {
     background: #1A191D;
     color: #ededed;
 }
 
+/* Header styling */
 .header {
     position: fixed;
     top: 0;
@@ -25,6 +28,7 @@ body {
     z-index: 100;
 }
 
+/* MJ Logo styling */
 .logo {
     font-size: 25px;
     color: #ededed;
@@ -32,6 +36,7 @@ body {
     font-weight: 600;
 }
 
+/* Navbar styling */
 .navbar a {
     font-size: 18px;
     color: #ededed;
@@ -41,14 +46,17 @@ body {
     transition: 300ms;
 }
 
+/* Navbar hover effect */
 .navbar > a:hover {
     color: #00abf0;
 }
 
+/* Navbar default light up */
 .navbar > a.default {
     color: #00abf0;
 }
 
+/* Home Content Section */
 .home{
     display: flex;
     height: 100vh;
@@ -56,25 +64,30 @@ body {
     padding: 0 10%;
 }
 
+/*Home Content Box size*/
 .home-content{
     max-width: 600px;
 }
 
+/* Malindu Jayasinghe */
 .home-content > h1{
     font-size: 56px;
     font-weight: 710;
 }
 
+/* Jayasinghe styling */
 .home-content > h1 > em{
     color: rgb(200, 169, 110);
 }
 
+/* Software Engineer & Backend Developer */
 .home-content > h3{
     font-size: 32px;
     font-weight: 600;
     color: #00abf0;
 }
 
+/* Home Content Button Border */
 .home-content > .button{
     display: flex;
     justify-content: space-between;
@@ -82,18 +95,24 @@ body {
     height: 50px;
 }
 
+/* Home Content Buttons */
 .button > a{
     display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 150px;
     height: 100%;
-    background: #00abf0;
-    border: 2px solid #00abf0;
+    background: rgb(200, 169, 110);
+    border: 2px solid rgb(200, 169, 110);
     border-radius: 8px;
     font-size: 19px;
     color: #081b29;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
+}
+
+.button > a:nth-child(2){
+    background: transparent;
+    color: rgb(200, 169, 110);
 }
