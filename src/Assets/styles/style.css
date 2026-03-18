@@ -36,6 +36,11 @@ body {
     font-weight: 600;
 }
 
+/* Additional MJ logo styling*/
+.logo > span{
+    color: rgb(200, 169, 110);
+}
+
 /* Navbar styling */
 .navbar a {
     font-size: 18px;
@@ -71,7 +76,7 @@ body {
 
 /* Malindu Jayasinghe */
 .home-content > h1{
-    font-size: 56px;
+    font-size: 52px;
     font-weight: 710;
 }
 
@@ -85,6 +90,7 @@ body {
     font-size: 32px;
     font-weight: 600;
     color: #00abf0;
+    margin: 20px 0 40px;
 }
 
 /* Home Content Button Border */
@@ -112,6 +118,7 @@ body {
     letter-spacing: 1px;
 }
 
+/* Let's Talk Button */
 .button > a:nth-child(2){
     background: transparent;
     color: rgb(200, 169, 110);
