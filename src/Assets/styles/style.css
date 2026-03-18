@@ -69,3 +69,8 @@ body {
     color: rgb(200, 169, 110);
 }
 
+.home-content > h3{
+    font-size: 32px;
+    font-weight: 600;
+    color: #00abf0;
+}
