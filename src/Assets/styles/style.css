@@ -41,11 +41,11 @@ body {
     transition: 300ms;
 }
 
-.navbar a:hover {
+.navbar > a:hover {
     color: #00abf0;
 }
 
-.navbar a.default {
+.navbar > a.default {
     color: #00abf0;
 }
 
@@ -59,3 +59,13 @@ body {
 .home-content{
     max-width: 600px;
 }
+
+.home-content > h1{
+    font-size: 56px;
+    font-weight: 710;
+}
+
+.home-content > h1 > em{
+    color: rgb(200, 169, 110);
+}
+
