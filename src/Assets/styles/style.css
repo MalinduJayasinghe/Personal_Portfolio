@@ -43,3 +43,7 @@ body {
 .navbar a:hover {
     color: #00abf0;
 }
+
+.navbar a.home {
+    color: #00abf0;
+}
