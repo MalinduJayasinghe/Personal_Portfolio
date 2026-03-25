@@ -90,9 +90,23 @@ body {
 
 /* Malindu Jayasinghe */
 .home-content > h1{
+    position: relative;
     font-size: 52px;
     font-weight: 710;
     line-height: 1.2;
+}
+
+/* Malindu Jayasinghe animation */
+.home-content > h1:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #1A191D;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1s;
 }
 
 /* Jayasinghe styling */
