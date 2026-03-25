@@ -116,10 +116,24 @@ body {
 
 /* Software Engineer & Backend Developer */
 .home-content > h3{
+    position: relative;
     font-size: 32px;
     font-weight: 600;
     color: #00abf0;
     margin: 20px 0 40px;
+}
+
+/* Software Engineer & Backend Developer animation*/
+.home-content > h3:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #1A191D;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.3s;
 }
 
 /* Home Content Button Border */
