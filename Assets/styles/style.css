@@ -37,6 +37,7 @@ body {
     font-weight: 600;
 }
 
+/* Logo Animation */
 .logo:before {
     content: '';
     position: absolute;
@@ -44,7 +45,7 @@ body {
     right: 0;
     width: 100%;
     height: 100%;
-    background: red;
+    background: #1A191D;
     animation: showRight 1s ease forwards;
     animation-delay: 400ms;
 }
@@ -173,4 +174,11 @@ body {
 /*Homepage Download CV button hover effects*/
 .button > a:hover{
     color: rgb(200, 169, 110);
+}
+
+/*Logo animation*/
+@keyframes showRight {
+    100%{
+        width: 0;
+    }
 }
