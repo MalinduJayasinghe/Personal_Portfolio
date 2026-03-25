@@ -145,3 +145,8 @@ body {
 .button > a:hover:before{
     width: 100%;
 }
+
+/*Homepage Let's Talk button hover effects*/
+.button > a:nth-child(2):before{
+    background: rgb(200, 169, 110);
+}
