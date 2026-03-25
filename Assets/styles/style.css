@@ -36,8 +36,8 @@ body {
     font-weight: 600;
 }
 
-/* Additional MJ logo styling*/
-.logo > span{
+/* MJ logo . styling*/
+.logo > em{
     color: rgb(200, 169, 110);
 }
 
@@ -78,6 +78,7 @@ body {
 .home-content > h1{
     font-size: 52px;
     font-weight: 710;
+    line-height: 1.2;
 }
 
 /* Jayasinghe styling */
@@ -103,6 +104,7 @@ body {
 
 /* Home Content Buttons */
 .button > a{
+    position: relative;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -116,10 +118,22 @@ body {
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
+    z-index: 1;
 }
 
 /* Let's Talk Button */
 .button > a:nth-child(2){
     background: transparent;
     color: rgb(200, 169, 110);
+}
+
+.button > a:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: red;
+    z-index: -1;
 }
