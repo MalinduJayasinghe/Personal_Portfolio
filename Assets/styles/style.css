@@ -138,10 +138,25 @@ body {
 
 /* Home Content Button Border */
 .home-content > .button{
+    position: relative;
     display: flex;
     justify-content: space-between;
     width: 345px;
     height: 50px;
+}
+
+/* Home Content Buttons Animation*/
+.home-content > .button:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #1A191D;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.7s;
+    z-index: 2;
 }
 
 /* Home Content Buttons */
