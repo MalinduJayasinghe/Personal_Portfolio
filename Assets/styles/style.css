@@ -114,12 +114,13 @@ body {
     border: 2px solid rgb(200, 169, 110);
     border-radius: 8px;
     font-size: 19px;
-    color: #081b29;
+    color: #1A191D;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
     z-index: 1;
     overflow: hidden;
+    transition: 500ms;
 }
 
 /* Let's Talk Button */
@@ -149,4 +150,14 @@ body {
 /*Homepage Let's Talk button hover effects*/
 .button > a:nth-child(2):before{
     background: rgb(200, 169, 110);
+}
+
+/*Homepage Let's Talk button hover effects*/
+.button > a:nth-child(2):hover{
+    color: #1A191D;
+}
+
+/*Homepage Download CV button hover effects*/
+.button > a:hover{
+    color: rgb(200, 169, 110);
 }
