@@ -86,6 +86,11 @@ body {
     font-weight: 600;
 }
 
+/* Gold dot in logo */
+.logo > em{
+    color: var(--gold);
+}
+
 /* Logo Animation */
 .logo:before {
     content: '';
@@ -99,11 +104,6 @@ body {
     animation-delay: 400ms;
 }
 
-/* MJ logo . styling*/
-.logo > em{
-    color: var(--gold);
-}
-
 /* Navbar styling */
 .navbar a {
     font-size: 18px;
@@ -112,6 +112,19 @@ body {
     font-weight: 500;
     margin-left: 35px;
     transition: 300ms;
+    position: relative;
+}
+
+/* Navbar underline hover effect */
+.navbar a::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--blue);
+    transition: width 300ms;
 }
 
 /* Navbar hover effect */
