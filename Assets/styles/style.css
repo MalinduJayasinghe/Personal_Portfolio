@@ -134,10 +134,6 @@ body {
     width: 100%;
 }
 
-.navbar a:hover {
-    color: var(--blue);
-}
-
 /* Navbar hover effect */
 .navbar > a:hover {
     color: var(--blue);
@@ -145,6 +141,11 @@ body {
 
 /* Navbar default light up */
 .navbar > a.default {
+    color: var(--blue);
+}
+
+/* Active nav link */
+.navbar a.active {
     color: var(--blue);
 }
 
