@@ -127,6 +127,17 @@ body {
     transition: width 300ms;
 }
 
+.navbar a:hover::after{
+    width: 100%;
+}
+.navbar a.active::after {
+    width: 100%;
+}
+
+.navbar a:hover {
+    color: var(--blue);
+}
+
 /* Navbar hover effect */
 .navbar > a:hover {
     color: var(--blue);
