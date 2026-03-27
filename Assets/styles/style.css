@@ -45,6 +45,14 @@ body {
     text-transform: uppercase;
 }
 
+/* Main section heading (e.g. "About Me", "Education") */
+.section-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 40px;
+}
+
 /* Header styling */
 .header {
     position: fixed;
