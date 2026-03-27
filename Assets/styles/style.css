@@ -55,6 +55,7 @@ body {
 
 /* ////////////////////////////// Header styling ////////////////////////////// */
 
+/* Header */
 .header {
     position: fixed;
     top: 0;
@@ -67,6 +68,13 @@ body {
     align-items: center;
     z-index: 100;
     transition: background 400ms, box-shadow 400ms;
+}
+
+/* Header scrolled state */
+.header.scrolled {
+    background: rgba(26, 25, 29, 0.95);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(8px);
 }
 
 /* MJ Logo styling */
