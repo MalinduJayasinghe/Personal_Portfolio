@@ -20,6 +20,11 @@
     --border:     rgba(200, 169, 110, 0.3);
 }
 
+/* Smooth scrolling */
+html{
+    scroll-behavior: smooth;
+}
+
 /* Body styling */
 body {
     background: #1A191D;
