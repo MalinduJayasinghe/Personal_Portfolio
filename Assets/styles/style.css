@@ -8,6 +8,18 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* Color Variables */
+:root {
+    --bg-dark:    #1A191D;
+    --bg-light:   #EDE8DF;
+    --text-light: #ededed;
+    --text-dark:  #1A191D;
+    --gold:       rgb(200, 169, 110);
+    --blue:       #00abf0;
+    --card-bg:    #ffffff;
+    --border:     rgba(200, 169, 110, 0.3);
+}
+
 /* Body styling */
 body {
     background: #1A191D;
