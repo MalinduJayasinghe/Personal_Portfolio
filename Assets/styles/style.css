@@ -149,6 +149,14 @@ body {
     color: var(--blue);
 }
 
+/* ---- Menu (mobile) ---- */
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
 /* Home Content Section */
 .home{
     display: flex;
