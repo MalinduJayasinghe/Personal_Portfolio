@@ -733,6 +733,12 @@ body {
     transition: color 300ms;
 }
 
+/* contact icon styling */
+.contact-item i {
+    font-size: 22px;
+    color: var(--gold);
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
