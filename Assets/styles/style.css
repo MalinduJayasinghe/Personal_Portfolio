@@ -363,6 +363,12 @@ body {
     font-size: 48px;
 }
 
+/* Tag group (Interests / Goals) */
+.about-tags-group {
+    margin-bottom: 28px;
+}
+
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
