@@ -580,6 +580,22 @@ body {
     gap: 12px;
 }
 
+/* Button styling */
+.carousel-btn {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 1.5px solid var(--gold);
+    background: transparent;
+    color: var(--gold);
+    font-size: 22px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 300ms, color 300ms;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
