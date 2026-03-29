@@ -349,6 +349,20 @@ body {
     margin-bottom: 40px;
 }
 
+/* Image Styling */
+.image-placeholder {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid var(--gold);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(200, 169, 110, 0.1);
+    color: var(--gold);
+    font-size: 48px;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
