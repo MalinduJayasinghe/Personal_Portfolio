@@ -744,6 +744,12 @@ body {
     color: var(--gold);
 }
 
+/* Social icons alignment */
+.social-links {
+    display: flex;
+    gap: 16px;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
