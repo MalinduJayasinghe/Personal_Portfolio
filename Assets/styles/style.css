@@ -688,6 +688,13 @@ body {
     background: transparent;
 }
 
+/* ///////////////////// CONTACT SECTION ///////////////////// */
+
+/* Base styling */
+.contact {
+    padding: 100px 10%;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
