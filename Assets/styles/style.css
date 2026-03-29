@@ -462,6 +462,11 @@ body {
     box-shadow: 0 0 0 3px rgba(200, 169, 110, 0.2);
 }
 
+/* timeline item styling*/
+.timeline-content {
+    max-width: 260px;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
