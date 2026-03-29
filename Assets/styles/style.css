@@ -382,6 +382,18 @@ body {
     gap: 12px;
 }
 
+/* Individual pill tag */
+.tag {
+    display: inline-block;
+    padding: 8px 20px;
+    background: var(--text-dark);
+    color: var(--text-light);
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 500;
+    transition: background 300ms, color 300ms;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
