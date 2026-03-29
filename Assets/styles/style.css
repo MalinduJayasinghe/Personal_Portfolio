@@ -714,12 +714,23 @@ body {
     letter-spacing: 0.3px;
 }
 
-/* Email and phone styling */
+/* contact detail alignment */
 .contact-details {
     display: flex;
     flex-direction: column;
     gap: 18px;
     margin-bottom: 50px;
+}
+
+/* contact detail styling */
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+    color: var(--text-light);
+    font-size: 15px;
+    transition: color 300ms;
 }
 
 /*Logo animation*/
