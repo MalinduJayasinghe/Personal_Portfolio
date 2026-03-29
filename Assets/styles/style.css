@@ -772,11 +772,23 @@ body {
     color: var(--bg-dark);
 }
 
-/* ///////////////////// Key frame animations ///////////////////// */
+/* ///////////////////// Keyframe animations ///////////////////// */
 
 /* slide animation (homepage) */
 @keyframes showRight {
     100%{
         width: 0;
+    }
+}
+
+/* Fade + rise in (used by scroll reveal) */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
