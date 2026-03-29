@@ -669,6 +669,13 @@ body {
     line-height: 1.5;
 }
 
+/* skill tags styling */
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
