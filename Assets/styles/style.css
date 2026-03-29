@@ -566,6 +566,14 @@ body {
     padding: 80px 10% 100px;
 }
 
+/* title and arrows alignment */
+.projects-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
