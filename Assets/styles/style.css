@@ -649,6 +649,11 @@ body {
     letter-spacing: 1px;
 }
 
+/* Card info styling */
+.project-info {
+    padding: 20px;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
