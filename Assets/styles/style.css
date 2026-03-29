@@ -371,7 +371,7 @@ body {
 .about-tags-group h4 {
     font-size: 15px;
     font-weight: 600;
-    color: var(--text-dark);
+    color: var(--text-light);
     margin-bottom: 12px;
 }
 
@@ -386,9 +386,10 @@ body {
 .tag {
     display: inline-block;
     padding: 8px 20px;
-    background: var(--text-dark);
+    background: rgba(200, 169, 110, 0.1);
     color: var(--text-light);
     border-radius: 50px;
+    border: 1px solid var(--gold);
     font-size: 13px;
     font-weight: 500;
     transition: background 300ms, color 300ms;
