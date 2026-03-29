@@ -412,6 +412,18 @@ body {
     margin: 0 auto;
 }
 
+/* Vertical centre line */
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: rgba(200, 169, 110, 0.3);
+    transform: translateX(-50%);
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
