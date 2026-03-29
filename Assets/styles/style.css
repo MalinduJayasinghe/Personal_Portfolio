@@ -530,6 +530,20 @@ body {
     margin-bottom: 16px;
 }
 
+/* Icon box */
+.skill-icon {
+    width: 44px;
+    height: 44px;
+    background: rgba(200, 169, 110, 0.15);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: var(--gold);
+    flex-shrink: 0;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
