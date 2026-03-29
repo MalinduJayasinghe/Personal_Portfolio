@@ -477,6 +477,14 @@ body {
     margin-bottom: 6px;
 }
 
+/* Degree title */
+.timeline-degree {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-light);
+    margin-bottom: 4px;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
