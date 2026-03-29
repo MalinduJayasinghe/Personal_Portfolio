@@ -432,6 +432,14 @@ body {
     position: relative;
 }
 
+/* Left-side items */
+.timeline-item.left {
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: calc(50% + 30px);
+    text-align: right;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
