@@ -448,6 +448,20 @@ body {
     text-align: left;
 }
 
+/* The gold dot on the centre line */
+.timeline-dot {
+    position: absolute;
+    left: 50%;
+    top: 8px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--gold);
+    transform: translateX(-50%);
+    z-index: 1;
+    box-shadow: 0 0 0 3px rgba(200, 169, 110, 0.2);
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
