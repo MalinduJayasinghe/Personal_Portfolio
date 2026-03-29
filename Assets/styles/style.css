@@ -574,6 +574,12 @@ body {
     margin-bottom: 40px;
 }
 
+/* Prev & Next buttons Styling */
+.carousel-controls {
+    display: flex;
+    gap: 12px;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
