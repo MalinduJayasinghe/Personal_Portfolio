@@ -658,7 +658,15 @@ body {
 .project-info h3 {
     font-size: 17px;
     font-weight: 700;
+    color: var(--gold);
     margin-bottom: 6px;
+}
+
+/* Project description styling */
+.project-info p {
+    font-size: 13px;
+    margin-bottom: 16px;
+    line-height: 1.5;
 }
 
 /*Logo animation*/
