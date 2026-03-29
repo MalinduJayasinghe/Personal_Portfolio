@@ -485,6 +485,12 @@ body {
     margin-bottom: 4px;
 }
 
+/* Institution name */
+.timeline-school {
+    font-size: 15px;
+    color: rgba(237, 237, 237, 0.5);
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
