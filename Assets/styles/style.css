@@ -339,7 +339,7 @@ body {
 .about-bio {
     font-size: 15px;
     line-height: 1.8;
-    color: #444;
+    color: var(--text-light);
     max-width: 680px;
     margin-bottom: 40px;
 }
@@ -373,6 +373,13 @@ body {
     font-weight: 600;
     color: var(--text-dark);
     margin-bottom: 12px;
+}
+
+/* Tags container */
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
 }
 
 /*Logo animation*/
