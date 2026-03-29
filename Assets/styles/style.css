@@ -704,6 +704,16 @@ body {
     max-width: 500px;
 }
 
+/* Subtext styling */
+.contact-subtext {
+    font-size: 16px;
+    color: var(--gold);
+    text-underline-offset: 4px;
+    margin-bottom: 50px;
+    font-style: italic;
+    letter-spacing: 0.3px;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
