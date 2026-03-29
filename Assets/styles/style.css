@@ -467,6 +467,16 @@ body {
     max-width: 260px;
 }
 
+/* Year label */
+.timeline-date {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--gold);
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 6px;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
