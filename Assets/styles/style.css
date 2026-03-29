@@ -516,6 +516,11 @@ body {
     transition: box-shadow 300ms, transform 300ms;
 }
 
+.skill-card:hover {
+    box-shadow: 0 8px 30px var(--gold);
+    transform: translateY(-4px);
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
