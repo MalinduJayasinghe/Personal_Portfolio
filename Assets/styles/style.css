@@ -654,6 +654,13 @@ body {
     padding: 20px;
 }
 
+/* Project name styling */
+.project-info h3 {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
