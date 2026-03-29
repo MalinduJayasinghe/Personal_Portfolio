@@ -344,6 +344,11 @@ body {
     margin-bottom: 40px;
 }
 
+/* Profile image placeholder */
+.about-image {
+    margin-bottom: 40px;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
