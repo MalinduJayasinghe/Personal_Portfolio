@@ -405,6 +405,13 @@ body {
     padding: 100px 10%;
 }
 
+/* ---- Timeline ---- */
+.timeline {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
