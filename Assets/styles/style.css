@@ -607,6 +607,13 @@ body {
     overflow: hidden;
 }
 
+/* Card Row */
+.projects-grid {
+    display: flex;
+    gap: 24px;
+    transition: transform 500ms ease;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
