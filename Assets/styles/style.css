@@ -179,7 +179,7 @@ body {
     transform: translateY(-7px) rotate(-45deg);
 }
 
-/* Home Content Section */
+/* /////////////////////////////// Home Content Section /////////////////////////////// */
 .home{
     display: flex;
     height: 100vh;
@@ -240,7 +240,7 @@ body {
     animation-delay: 1.3s;
 }
 
-/* Home Content Button Border */
+/* Home Content Button Styling */
 .home-content > .button{
     position: relative;
     display: flex;
@@ -263,7 +263,7 @@ body {
     z-index: 2;
 }
 
-/* Home Content Buttons */
+/* Home Content Buttons Base Styling*/
 .button > a{
     position: relative;
     display: inline-flex;
@@ -308,20 +308,33 @@ body {
     width: 100%;
 }
 
-/*Homepage Let's Talk button hover effects*/
+/*Let's Talk button hover effects*/
 .button > a:nth-child(2):before{
     background: var(--gold);
 }
 
-/*Homepage Let's Talk button hover effects*/
+/*Let's Talk button hover effects*/
 .button > a:nth-child(2):hover{
     color: var(--bg-dark);
 }
 
-/*Homepage Download CV button hover effects*/
+/*Download CV button hover effects*/
 .button > a:hover{
     color: var(--gold);
 }
+
+/* /////////////////////////////// About Section /////////////////////////////// */
+
+.about {
+    background: var(--bg-light);
+    color: var(--text-dark);
+    padding: 100px 10%;
+}
+
+.about-content {
+    max-width: 900px;
+}
+
 
 /*Logo animation*/
 @keyframes showRight {
