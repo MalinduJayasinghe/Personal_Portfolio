@@ -440,6 +440,14 @@ body {
     text-align: right;
 }
 
+/* Right-side items */
+.timeline-item.right {
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: calc(50% + 30px);
+    text-align: left;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
