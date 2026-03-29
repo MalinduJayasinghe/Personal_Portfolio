@@ -602,6 +602,11 @@ body {
     color: var(--bg-dark);
 }
 
+/* Carousel wrapper overflow hidden */
+.carousel-wrapper {
+    overflow: hidden;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
