@@ -139,11 +139,6 @@ body {
     color: var(--blue);
 }
 
-/* Navbar default light up */
-.navbar > a.default {
-    color: var(--blue);
-}
-
 /* Active nav link */
 .navbar a.active {
     color: var(--blue);
@@ -400,6 +395,14 @@ body {
     background: var(--gold);
     color: var(--text-dark);
     cursor: default;
+}
+
+/* /////////////////////////////// Education Section /////////////////////////////// */
+
+.education {
+    background: var(--bg-dark);
+    color: var(--text-light);
+    padding: 100px 10%;
 }
 
 /*Logo animation*/
