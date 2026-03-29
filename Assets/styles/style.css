@@ -491,6 +491,14 @@ body {
     color: rgba(237, 237, 237, 0.5);
 }
 
+/* ////////////////////////////// Skills Section ////////////////////////////// */
+
+.skills {
+    background: var(--bg-dark);
+    color: var(--text-light);
+    padding: 100px 10%;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
