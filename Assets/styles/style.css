@@ -368,6 +368,12 @@ body {
     margin-bottom: 28px;
 }
 
+.about-tags-group h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 12px;
+}
 
 /*Logo animation*/
 @keyframes showRight {
