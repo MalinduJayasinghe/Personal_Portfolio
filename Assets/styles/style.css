@@ -772,7 +772,9 @@ body {
     color: var(--bg-dark);
 }
 
-/*Logo animation*/
+/* ///////////////////// Key frame animations ///////////////////// */
+
+/* slide animation (homepage) */
 @keyframes showRight {
     100%{
         width: 0;
