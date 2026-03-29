@@ -641,6 +641,14 @@ body {
     justify-content: center;
 }
 
+/* Project image text styling */
+.project-image span {
+    font-size: 13px;
+    font-weight: 500;
+    color: #999;
+    letter-spacing: 1px;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
