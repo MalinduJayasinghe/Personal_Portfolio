@@ -326,8 +326,8 @@ body {
 /* /////////////////////////////// About Section /////////////////////////////// */
 
 .about {
-    background: var(--bg-light);
-    color: var(--text-dark);
+    background: var(--bg-dark);
+    color: var(--text-light);
     padding: 100px 10%;
 }
 
@@ -335,6 +335,14 @@ body {
     max-width: 900px;
 }
 
+/* Bio paragraph */
+.about-bio {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #444;
+    max-width: 680px;
+    margin-bottom: 40px;
+}
 
 /*Logo animation*/
 @keyframes showRight {
