@@ -424,6 +424,14 @@ body {
     transform: translateX(-50%);
 }
 
+/* Each row in the timeline */
+.timeline-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    position: relative;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
