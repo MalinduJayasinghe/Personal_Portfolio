@@ -551,10 +551,19 @@ body {
     color: var(--text-light);
 }
 
-/* Skill card text */
+/* Skill card text styling */
 .skill-card > p {
     font-size: 14px;
     line-height: 1.7;
+}
+
+/* ////////////////////////////// Projects Section ////////////////////////////// */
+
+/* Base Project Section styling */
+.projects {
+    background: var(--bg-dark);
+    color: var(--text-light);
+    padding: 80px 10% 100px;
 }
 
 /*Logo animation*/
