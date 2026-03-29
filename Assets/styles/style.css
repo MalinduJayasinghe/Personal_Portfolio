@@ -695,6 +695,15 @@ body {
     padding: 100px 10%;
 }
 
+/* heading styling */
+.contact-heading {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
