@@ -874,3 +874,69 @@ body {
         max-width: 100%;
     }
 }
+
+/* ///////////////////// RESPONSIVE — MOBILE (max 600px) ///////////////////// */
+
+@media (max-width: 600px) {
+
+    .home {
+        padding: 0 6%;
+    }
+
+    .about, .education, .skills, .projects, .contact {
+        padding: 80px 6%;
+    }
+
+    /* Home Content */
+    .home-content > h1  {
+        font-size: 30px;
+    }
+
+    .home-content > h3  {
+        font-size: 18px;
+    }
+
+    .home-content > .button {
+        width: 100%;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .contact-heading {
+        font-size: 28px;
+    }
+
+    /* Skills Section */
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Projects Section */
+    .project-card {
+        min-width: 100%;
+    }
+
+    /* Timeline - all aligned to left */
+    .timeline::before {
+        left: 8px;
+    }
+
+    .timeline-item.left,
+    .timeline-item.right {
+        flex-direction: column;
+        padding-left: 36px;
+        padding-right: 0;
+        text-align: left;
+        justify-content: flex-start;
+    }
+
+    .timeline-dot {
+        left: 8px;
+    }
+
+    .timeline-content {
+        max-width: 100%;
+    }
+}
