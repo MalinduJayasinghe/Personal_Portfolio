@@ -765,6 +765,13 @@ body {
     transition: background 300ms, color 300ms, border-color 300ms;
 }
 
+/* social button hover effect */
+.social-icon:hover {
+    background: var(--gold);
+    border-color: var(--gold);
+    color: var(--bg-dark);
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
