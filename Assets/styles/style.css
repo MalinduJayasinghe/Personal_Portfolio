@@ -530,7 +530,7 @@ body {
     margin-bottom: 16px;
 }
 
-/* Icon box */
+/* Icon box Styling*/
 .skill-icon {
     width: 44px;
     height: 44px;
@@ -542,6 +542,13 @@ body {
     font-size: 24px;
     color: var(--gold);
     flex-shrink: 0;
+}
+
+/* Skill card header styling */
+.skill-card-header h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-dark);
 }
 
 /*Logo animation*/
