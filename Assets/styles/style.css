@@ -739,6 +739,11 @@ body {
     color: var(--gold);
 }
 
+/* contact detail hover effect */
+.contact-item:hover {
+    color: var(--gold);
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
