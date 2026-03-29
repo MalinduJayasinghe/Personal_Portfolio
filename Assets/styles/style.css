@@ -596,6 +596,12 @@ body {
     transition: background 300ms, color 300ms;
 }
 
+/* Button Hover Effect */
+.carousel-btn:hover {
+    background: var(--gold);
+    color: var(--bg-dark);
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
