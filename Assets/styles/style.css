@@ -714,6 +714,14 @@ body {
     letter-spacing: 0.3px;
 }
 
+/* Email and phone styling */
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 50px;
+}
+
 /*Logo animation*/
 @keyframes showRight {
     100%{
