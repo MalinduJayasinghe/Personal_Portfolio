@@ -516,9 +516,18 @@ body {
     transition: box-shadow 300ms, transform 300ms;
 }
 
+/* Skill card hover effect */
 .skill-card:hover {
     box-shadow: 0 8px 30px var(--gold);
     transform: translateY(-4px);
+}
+
+/* icon + title styling */
+.skill-card-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 16px;
 }
 
 /*Logo animation*/
