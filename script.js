@@ -1,3 +1,4 @@
+
 // ---- Active nav link on scroll ----
 const sections  = document.querySelectorAll('section');
 const navLinks  = document.querySelectorAll('.navbar a');
@@ -31,3 +32,12 @@ window.addEventListener('scroll', () => {
     );
 }
 );
+
+// ---- Mobile menu ----
+const menu = document.getElementById('mobile-menu');
+const navbar    = document.querySelector('.navbar');
+
+menu.addEventListener('click', () => {
+    menu.classList.toggle('open');
+    navbar.classList.toggle('open');
+});
