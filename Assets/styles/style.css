@@ -688,6 +688,37 @@ body {
     background: transparent;
 }
 
+/* Display tags and GitHub link on same row */
+.project-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* GitHub pill button */
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 5px 14px;
+    border: 1px solid var(--gold);
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--gold);
+    text-decoration: none;
+    transition: background 300ms, color 300ms;
+}
+
+.project-link i {
+    font-size: 16px;
+}
+
+.project-link:hover {
+    background: var(--gold);
+    color: var(--bg-dark);
+}
+
 /* ///////////////////// CONTACT SECTION ///////////////////// */
 
 /* Base styling */
