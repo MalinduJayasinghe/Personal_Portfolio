@@ -318,6 +318,29 @@ body {
     color: var(--gold);
 }
 
+/* Align Home page content and image */
+.home {
+    justify-content: space-between;
+}
+
+/* Image - Right side */
+.home-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+/* Image size */
+.home-image img {
+    width: 420px;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+    mix-blend-mode: lighten;
+}
+
 /* /////////////////////////////// About Section /////////////////////////////// */
 
 .about {
