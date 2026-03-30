@@ -41,3 +41,11 @@ menu.addEventListener('click', () => {
     menu.classList.toggle('open');
     navbar.classList.toggle('open');
 });
+
+// Close mobile menu when a nav link is clicked
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        menu.classList.remove('open');
+        navbar.classList.remove('open');
+    });
+});
