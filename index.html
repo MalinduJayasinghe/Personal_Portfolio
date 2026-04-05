@@ -7,12 +7,16 @@
     <title> Malindu Jayasinghe</title>
     <link rel="stylesheet" href="Assets/styles/style.css">
 
+    <!-- SwiperJS link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+
     <!-- Boxicons link -->
+
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
     <!-- Devicons link -->
     <link href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" rel="stylesheet">
 
-    <!-- Must include all Web Technologies exercises in Exercises section -->
     <!-- Must include Gallery section -->
 </head>
 <body>
@@ -62,7 +66,7 @@
 
         <!-- Right: profile photo -->
         <div class="home-image">
-            <img src="/Assets/images/Homepage_image.jpg" alt="Malindu Jayasinghe" />
+            <img src="../Assets/images/Homepage_image.jpg" alt="Malindu Jayasinghe" />
         </div>
     </section>
 
@@ -82,13 +86,6 @@
                 with a deep love for programming. I bring together strong technical skills
                 and a keen eye to make functional and reliable software.
             </p>
-
-            <!-- Profile Image Placeholder -->
-            <div class="about-image">
-                <div class="image-placeholder">
-                    <i class='bx bx-user'></i>
-                </div>
-            </div>
 
             <!-- Interests -->
             <div class="about-tags-group">
@@ -287,137 +284,71 @@
     </section>
 
     <!-- ////////////////////////////// Projects Section ////////////////////////////// -->
-     <section class ="projects" id="projects">
-        <div class ="projects-content">
 
-            <!-- Top Section -->
+    <section class="projects" id="projects">
+        <div class="projects-content">
+
             <div class="projects-header">
                 <div>
                     <span class="section-label">MY WORK</span>
                     <h2 class="section-title">Projects</h2>
                 </div>
-
-                <!-- Carousel Controls -->
-                <div class="carousel-controls">
-                    <button class="carousel-btn" id="prevBtn" aria-label="Previous">
-                        <i class='bx bx-left-arrow-alt'></i>
-                    </button>
-                    <button class="carousel-btn" id="nextBtn" aria-label="Next">
-                        <i class='bx bx-right-arrow-alt'></i>
-                    </button>
-                </div>
             </div>
 
+            <div class="swiper projects-swiper">
+                <div class="swiper-wrapper">
 
-                <!-- Project Cards Carousel -->
-                <div class="carousel-wrapper">
-                    <div class="projects-grid" id="projectsGrid">
-
-                        <!-- Connect 4 Project -->
-                        <div class="project-card">
-                            <div class="project-image">
-                                <img src="Assets/images/connect_4_image.jpg" alt="Connect 4 Game Project" />
+                    <div class="swiper-slide">
+                        <a href="https://github.com/MalinduJayasinghe/Connect_4_Game_Project"
+                           target="_blank" class="card">
+                            <img src="../Assets/images/connect_4_image.jpg" alt="Connect 4 Game" class="card-image">
+                            <p class="card-badge">Connect 4 Game</p>
+                            <h2 class="card-title">A Connect 4 Game with an AI player built using an MCTS algorithm.</h2>
+                            <div class="card-footer">
+                                <div class="card-tags"><span class="card-tag">JAVA</span></div>
+                                <span class="card-github"><i class='bx bxl-github'></i> View on GitHub</span>
                             </div>
-                            <div class="project-info">
-                                <h3>Connect 4 Game Project</h3>
-                                <p>
-                                    A Connect 4 Game made as a project that <br>
-                                    implements a simple AI player made using <br>
-                                    an MCTS algorithm to play against. <br>
-
-                                </p>
-                                <div class="project-footer">
-                                    <div class="project-tags">
-                                        <span class="project-tag">JAVA</span>
-                                    </div>
-                                    <a href="https://github.com/MalinduJayasinghe/Connect_4_Game_Project"
-                                       target="_blank"
-                                       class="project-link"
-                                       aria-label="View on GitHub">
-                                        <i class='bx bxl-github'></i>
-                                        View on GitHub
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Inventory Control System -->
-                        <div class="project-card">
-                            <div class="project-image">
-                                <img src="Assets/images/inventory_control_image.jpg" alt="Inventory Control System" />
-                            </div>
-                            <div class="project-info">
-                                <h3>Inventory Control System</h3>
-                                <p>
-                                    A simple inventory control system for a small <br>
-                                    bookshop to allow recording of item stock levels, <br>
-                                    generating reports and view low stock and <br>
-                                    damaged stock items.
-                                </p>
-                                <div class="project-footer">
-                                    <div class="project-tags">
-                                        <span class="project-tag">JAVA</span>
-                                        <span class="project-tag">SQL</span>
-                                    </div>
-                                    <a href="https://github.com/MalinduJayasinghe/Inventory-Control-System"
-                                       target="_blank"
-                                       class="project-link"
-                                       aria-label="View on GitHub">
-                                        <i class='bx bxl-github'></i>
-                                        View on GitHub
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Project Card -->
-                        <div class="project-card">
-                            <div class="project-image">
-                                <span>PROJECT IMAGE</span>
-                            </div>
-                            <div class="project-info">
-                                <h3>Project Name</h3>
-                                <p>Project Description</p>
-                                <div class="project-tags">
-                                    <span class="project-tag">JAVA</span>
-                                    <span class="project-tag">CSS</span>
-                                    <span class="project-tag">HTML</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Project Card -->
-                        <div class="project-card">
-                            <div class="project-image">
-                                <span>PROJECT IMAGE</span>
-                            </div>
-                            <div class="project-info">
-                                <h3>Project Name</h3>
-                                <p>Project Description</p>
-                                <div class="project-tags">
-                                    <span class="project-tag">Python</span>
-                                    <span class="project-tag">JS</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Project Card -->
-                        <div class="project-card">
-                            <div class="project-image">
-                                <span>PROJECT IMAGE</span>
-                            </div>
-                            <div class="project-info">
-                                <h3>Project Name</h3>
-                                <p>Project Description</p>
-                                <div class="project-tags">
-                                    <span class="project-tag">JAVA</span>
-                                    <span class="project-tag">MySQL</span>
-                                </div>
-                            </div>
-                        </div>
-
+                        </a>
                     </div>
+
+                    <div class="swiper-slide">
+                        <a href="https://github.com/MalinduJayasinghe/Inventory-Control-System"
+                           target="_blank" class="card">
+                            <img src="../Assets/images/inventory_control_image.jpg" alt="Inventory Control System" class="card-image">
+                            <p class="card-badge">Inventory Control System</p>
+                            <h2 class="card-title">A simple inventory control system for a small bookshop with stock and report features.</h2>
+                            <div class="card-footer">
+                                <div class="card-tags">
+                                    <span class="card-tag">JAVA</span>
+                                    <span class="card-tag">SQL</span>
+                                </div>
+                                <span class="card-github"><i class='bx bxl-github'></i> View on GitHub</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="https://github.com/MalinduJayasinghe/Personal_Portfolio/tree/master"
+                           target="_blank" class="card">
+                            <img src="../Assets/images/personal_portfolio_image.jpg" alt="Personal Portfolio" class="card-image">
+                            <p class="card-badge">Personal Portfolio</p>
+                            <h2 class="card-title">An interactive Personal Portfolio built with HTML, CSS, and JavaScript.</h2>
+                            <div class="card-footer">
+                                <div class="card-tags">
+                                    <span class="card-tag">HTML</span>
+                                    <span class="card-tag">CSS</span>
+                                    <span class="card-tag">JS</span>
+                                </div>
+                                <span class="card-github"><i class='bx bxl-github'></i> View on GitHub</span>
+                            </div>
+                        </a>
+                    </div>
+
                 </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
 
         </div>
     </section>
@@ -453,13 +384,13 @@
 
             <!-- Social Links -->
             <div class="social-links">
-                <a href="https://github.com/MalinduJayasinghe" class="social-icon" aria-label="GitHub">
+                <a href="https://github.com/MalinduJayasinghe" target="_blank" class="social-icon" aria-label="GitHub">
                     <i class='bx bxl-github'></i>
                 </a>
-                <a href="https://medium.com/@jayasinghemalindu3" class="social-icon" aria-label="Medium">
+                <a href="https://medium.com/@jayasinghemalindu3" target="_blank" class="social-icon" aria-label="Medium">
                     <i class='bx bxl-medium'></i>
                 </a>
-                <a href="https://www.linkedin.com/in/malindu-jayasinghe-647a4b362/" class="social-icon" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/malindu-jayasinghe-647a4b362/" target="_blank" class="social-icon" aria-label="LinkedIn">
                     <i class='bx bxl-linkedin'></i>
                 </a>
             </div>
@@ -467,7 +398,8 @@
         </div>
     </section>
 
-    <!-- JavaScript Link -->
+    <!-- JavaScript Links -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 
 </body>
