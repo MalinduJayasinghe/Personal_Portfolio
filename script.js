@@ -218,3 +218,24 @@ new Swiper('.projects-swiper', {
         1100: { slidesPerView: 3 },
     },
 });
+
+// ---- Gallery Swiper ----
+new Swiper('.gallery-swiper', {
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 20,
+    centeredSlides: true,
+    pagination: {
+        el: '.gallery-pagination',
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.gallery-next',
+        prevEl: '.gallery-prev',
+    },
+    breakpoints: {
+        600:  { slidesPerView: 2, spaceBetween: 16 },
+        900:  { slidesPerView: 3, spaceBetween: 20 },
+        1100: { slidesPerView: 3, spaceBetween: 24 },
+    },
+});

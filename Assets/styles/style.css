@@ -15,7 +15,6 @@
     --text-light: #ededed;
     --text-dark:  #1A191D;
     --gold:       rgb(200, 169, 110);
-    --blue:       #00abf0;
     --card-bg:    #ffffff;
     --border:     rgba(200, 169, 110, 0.3);
 }
@@ -148,7 +147,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background: var(--blue);
+    background: var(--gold);
     transition: width 300ms;
 }
 
@@ -161,12 +160,12 @@ body {
 
 /* Navbar hover effect */
 .navbar > a:hover {
-    color: var(--blue);
+    color: var(--gold);
 }
 
 /* Active nav link */
 .navbar a.active {
-    color: var(--blue);
+    color: var(--gold);
 }
 
 /* ---- Menu (mobile) ---- */
@@ -595,13 +594,19 @@ body {
 }
 
 .gallery-content {
-    max-width: 1100px;
+    max-width: 1200px;
 }
 
-.gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
+.gallery-swiper {
+    --swiper-theme-color: var(--gold);
+    width: 100%;
+    padding-bottom: 80px;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery-slide {
+    height: auto;
 }
 
 .gallery-item {
@@ -609,12 +614,7 @@ body {
     overflow: hidden;
     border: 1px solid var(--border);
     aspect-ratio: 4 / 3;
-    transition: transform 300ms, box-shadow 300ms;
-}
-
-.gallery-item:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 30px var(--gold);
+    cursor: pointer;
 }
 
 .gallery-item img {
@@ -622,11 +622,39 @@ body {
     height: 100%;
     object-fit: cover;
     display: block;
-    transition: transform 400ms;
+    transition: transform 400ms ease;
 }
 
+/* Hover zoom — only on the active/center slide AND adjacent visible slides */
 .gallery-item:hover img {
-    transform: scale(1.05);
+    transform: scale(1.08);
+}
+
+/* Slightly dim non-hovered slides for focus effect */
+.gallery-swiper .swiper-slide {
+    transition: opacity 300ms;
+    opacity: 0.75;
+}
+
+.gallery-swiper .swiper-slide:hover {
+    opacity: 1;
+}
+
+/* Pagination + nav reuse gold theme */
+.gallery-pagination .swiper-pagination-bullet {
+    background: var(--gold);
+    opacity: 0.4;
+}
+
+.gallery-pagination .swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+.gallery-prev,
+.gallery-next {
+    color: var(--gold);
+    top: auto;
+    bottom: 10px;
 }
 
 /* ////////////////////////////// Cursor dot ////////////////////////////// */
@@ -675,7 +703,7 @@ body {
 .projects {
     background: var(--bg-dark);
     color: var(--text-light);
-    padding: 80px 10% 100px;
+    padding: 80px 10% 160px;
 }
 
 .projects-header {
@@ -686,9 +714,10 @@ body {
 }
 
 .projects-swiper {
+    --swiper-theme-color: var(--gold);
     width: 100%;
-    overflow: hidden;
-    padding-bottom: 50px;
+    overflow: visible;
+    padding-bottom: 80px;
 }
 
 .swiper-slide {
@@ -779,8 +808,13 @@ body {
     color: var(--gold);
 }
 
-.swiper-pagination-bullet { background: var(--gold); opacity: 0.4; }
-.swiper-pagination-bullet-active { opacity: 1; }
+.swiper-pagination-bullet {
+    background: var(--gold);
+    opacity: 0.4;
+}
+.swiper-pagination-bullet-active {
+    opacity: 1;
+}
 
 /* ///////////////////// CONTACT SECTION ///////////////////// */
 
@@ -968,8 +1002,8 @@ body {
         max-width: 100%;
     }
 
-    .gallery-grid {
-        grid-template-columns: repeat(2, 1fr);
+    .gallery {
+        padding: 80px 6%;
     }
 
     .navbar-close {
@@ -1045,11 +1079,6 @@ body {
 
     .gallery {
         padding: 80px 6%;
-    }
-
-    .gallery-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
     }
 
     .gallery-lightbox-inner {
