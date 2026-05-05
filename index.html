@@ -20,482 +20,488 @@
     <!-- Must include Gallery section -->
 </head>
 <body>
-    <!-- Header -->
-    <header class ="header" >
+<!-- Header -->
+<header class ="header" >
 
-        <!-- MJ logo -->
-        <a href="#" class ="logo">
-            M
-            <em>.</em>
-            J
+    <!-- MJ logo -->
+    <a href="#" class ="logo">
+        M
+        <em>.</em>
+        J
+    </a>
+
+    <!-- Navigation Bar-->
+    <nav class = "navbar">
+
+        <!-- Close button (mobile only) -->
+        <button class="navbar-close" id="navbar-close" aria-label="Close menu">&times;</button>
+
+        <!-- Navigation  -->
+        <a href="#home" class ="default">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Menu (Mobile) -->
+    <div class="mobile-menu" id="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+</header>
+
+<!-- ////////////////////////////// Home Content Section ////////////////////////////// -->
+<section class ="home" id ="home">
+
+    <!-- Home Content - Left -->
+    <div class ="home-content">
+        <h1>Hi, I'm Malindu <em>Jayasinghe</em></h1>
+        <h3><!-- Displays Software Engineer and Backend Developer --></h3>
+        <div class ="button">
+            <a href="#projects"> Projects </a>
+            <a href="#contact">Let's Talk</a>
+        </div>
+    </div>
+
+    <!-- Right: profile photo -->
+    <div class="home-image">
+        <img src="../Assets/images/Homepage_image.jpg" alt="Malindu Jayasinghe" />
+    </div>
+</section>
+
+<!-- ////////////////////////////// About Section ////////////////////////////// -->
+<section class ="about" id="about">
+    <div class ="about-content">
+
+        <!-- Top Label -->
+        <span class="section-label">WHO AM I ?</span>
+
+        <!-- Section Title -->
+        <h2 class="section-title">About Me</h2>
+
+        <!-- Bio -->
+        <p class="about-bio">
+            I'm a passionate developer and aspiring game developer based in Sri Lanka,
+            with a deep love for programming. I bring together strong technical skills
+            and a keen eye to make functional and reliable software.
+        </p>
+
+        <!-- Interests -->
+        <div class="about-tags-group">
+            <h4>Interests</h4>
+            <div class="tags">
+                <span class="tag">Web Development</span>
+                <span class="tag">Backend Development</span>
+                <span class="tag">Game Development</span>
+            </div>
+        </div>
+
+        <!-- Goals -->
+        <div class="about-tags-group">
+            <h4>Goals</h4>
+            <div class="tags">
+                <span class="tag">Build impactful products</span>
+                <span class="tag">Lifelong learning</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ////////////////////////////// Education Section ////////////////////////////// -->
+<section class ="education" id="education">
+    <div class ="education-content">
+
+        <!-- Top Label -->
+        <span class="section-label">ACADEMIC BACKGROUND</span>
+
+        <!-- Section Title -->
+        <h2 class="section-title">Education</h2>
+
+        <!-- Timeline -->
+        <div class="timeline">
+
+            <!-- IJSE Degree -->
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <span class="timeline-date">2025 – 2027</span>
+                    <h3 class="timeline-degree">BSc (Hons) in Software Engineering</h3>
+                    <p class="timeline-school">IJSE</p>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <!-- ESOFT Diploma -->
+            <div class="timeline-item right">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2023 – 2024</span>
+                    <h3 class="timeline-degree">Diploma in English & IT</h3>
+                    <p class="timeline-school">ESOFT Metro College</p>
+                </div>
+            </div>
+
+            <!-- ESOFT Foundation -->
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <span class="timeline-date">2021 – 2022</span>
+                    <h3 class="timeline-degree">Foundation in English & IT</h3>
+                    <p class="timeline-school">ESOFT Metro College</p>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <!-- A/L -->
+            <div class="timeline-item right">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2022 – 2024</span>
+                    <h3 class="timeline-degree">Advanced Level Certificate</h3>
+                    <p class="timeline-school">Lyceum International School</p>
+                </div>
+            </div>
+
+            <!-- O/L -->
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <span class="timeline-date">2020 – 2022</span>
+                    <h3 class="timeline-degree">Ordinary Level Certificate</h3>
+                    <p class="timeline-school">Lyceum International School</p>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ////////////////////////////// Skills Section ////////////////////////////// -->
+<section class ="skills" id="skills">
+    <div class ="skills-content">
+
+        <!-- Top Label -->
+        <span class="section-label">WHAT I DO</span>
+
+        <!-- Section Title -->
+        <h2 class="section-title">Skills</h2>
+
+        <!-- Skills Grid -->
+        <div class="skills-grid">
+
+            <!-- Skill Card — Java -->
+            <div class="skill-card">
+                <div class="skill-card-header">
+                    <div class="skill-icon">
+                        <i class="devicon-java-plain"></i>
+                    </div>
+                    <h3>Java</h3>
+                </div>
+                <p>Object-oriented application development, backend services, and desktop apps.</p>
+            </div>
+
+            <!-- Skill Card — Python -->
+            <div class="skill-card">
+                <div class="skill-card-header">
+                    <div class="skill-icon">
+                        <i class="devicon-python-plain"></i>
+                    </div>
+                    <h3>Python</h3>
+                </div>
+                <p>Scripting, automation, and server-side development with Python.</p>
+            </div>
+
+            <!-- Skill Card — HTML5 -->
+            <div class="skill-card">
+                <div class="skill-card-header">
+                    <div class="skill-icon">
+                        <i class="devicon-html5-plain"></i>
+                    </div>
+                    <h3>HTML 5</h3>
+                </div>
+                <p>Semantic, accessible markup and modern HTML5 designs for the web.</p>
+            </div>
+
+            <!-- Skill Card — CSS -->
+            <div class="skill-card">
+                <div class="skill-card-header">
+                    <div class="skill-icon">
+                        <i class="devicon-css3-plain"></i>
+                    </div>
+                    <h3>CSS</h3>
+                </div>
+                <p>Responsive layouts, animations, and polished UI styling with CSS3.</p>
+            </div>
+
+            <!-- Skill Card — JavaScript -->
+            <div class="skill-card">
+                <div class="skill-card-header">
+                    <div class="skill-icon">
+                        <i class="devicon-javascript-plain"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                </div>
+                <p>Dynamic, interactive web experiences and modern web development.</p>
+            </div>
+
+            <!-- Skill Card — OOP -->
+            <div class="skill-card">
+                <div class="skill-card-header">
+                    <div class="skill-icon">
+                        <i class='bx bx-code-curly'></i>
+                    </div>
+                    <h3>OOP</h3>
+                </div>
+                <p> Object creation, encapsulation, inheritance, and polymorphism principles.</p>
+            </div>
+
+            <!-- Skill Card — ORM -->
+            <div class="skill-card">
+                <div class="skill-card-header">
+                    <div class="skill-icon">
+                        <i class='bx bx-data'></i>
+                    </div>
+                    <h3>ORM</h3>
+                </div>
+                <p>Database mapping and querying using Hibernate and Lombok.</p>
+            </div>
+
+            <!-- Skill Card — JasperSoft -->
+            <div class="skill-card">
+                <div class="skill-card-header">
+                    <div class="skill-icon">
+                        <i class='bx bxs-report'></i>
+                    </div>
+                    <h3>JasperSoft</h3>
+                </div>
+                <p>Designing and generating dynamic reports and data visualisations.</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ////////////////////////////// Gallery Section ////////////////////////////// -->
+<section class="gallery" id="gallery">
+    <div class="gallery-content">
+
+        <span class="section-label">MOMENTS & WORK</span>
+        <h2 class="section-title">Gallery</h2>
+
+        <div class="swiper gallery-swiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide gallery-slide">
+                    <div class="gallery-item">
+                        <img src="../Assets/images/gallery_image_01.jpeg" alt="Gallery Image 1" />
+                    </div>
+                </div>
+
+                <div class="swiper-slide gallery-slide">
+                    <div class="gallery-item">
+                        <img src="../Assets/images/gallery_image_02.jpeg" alt="Gallery Image 2" />
+                    </div>
+                </div>
+
+                <div class="swiper-slide gallery-slide">
+                    <div class="gallery-item">
+                        <img src="../Assets/images/gallery_image_03.jpeg" alt="Gallery Image 3" />
+                    </div>
+                </div>
+
+                <div class="swiper-slide gallery-slide">
+                    <div class="gallery-item">
+                        <img src="../Assets/images/gallery_image_04.jpeg" alt="Gallery Image 4" />
+                    </div>
+                </div>
+
+                <div class="swiper-slide gallery-slide">
+                    <div class="gallery-item">
+                        <img src="../Assets/images/gallery_image_05.jpeg" alt="Gallery Image 5" />
+                    </div>
+                </div>
+
+                <div class="swiper-slide gallery-slide">
+                    <div class="gallery-item">
+                        <img src="../Assets/images/gallery_image_06.jpeg" alt="Gallery Image 6" />
+                    </div>
+                </div>
+
+                <div class="swiper-slide gallery-slide">
+                    <div class="gallery-item">
+                        <img src="../Assets/images/gallery_image_07.jpeg" alt="Gallery Image 7" />
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination gallery-pagination"></div>
+            <div class="swiper-button-prev gallery-prev"></div>
+            <div class="swiper-button-next gallery-next"></div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ////////////////////////////// Projects Section ////////////////////////////// -->
+
+<section class="projects" id="projects">
+    <div class="projects-content">
+
+        <div class="projects-header">
+            <div>
+                <span class="section-label">MY WORK</span>
+                <h2 class="section-title">Projects</h2>
+            </div>
+        </div>
+
+        <div class="swiper projects-swiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <a href="https://github.com/MalinduJayasinghe/Connect_4_Game_Project"
+                       target="_blank" class="card">
+                        <img src="../Assets/images/connect_4_image.jpg" alt="Connect 4 Game" class="card-image">
+                        <p class="card-badge">Connect 4 Game</p>
+                        <h2 class="card-title">A Connect 4 Game with an AI player built using an MCTS algorithm.</h2>
+                        <div class="card-footer">
+                            <div class="card-tags"><span class="card-tag">JAVA</span></div>
+                            <span class="card-github"><i class='bx bxl-github'></i> View on GitHub</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="https://github.com/MalinduJayasinghe/Inventory-Control-System"
+                       target="_blank" class="card">
+                        <img src="../Assets/images/inventory_control_image.jpg" alt="Inventory Control System" class="card-image">
+                        <p class="card-badge">Inventory Control System</p>
+                        <h2 class="card-title">A simple inventory control system for a small bookshop with stock and report features.</h2>
+                        <div class="card-footer">
+                            <div class="card-tags">
+                                <span class="card-tag">JAVA</span>
+                                <span class="card-tag">SQL</span>
+                            </div>
+                            <span class="card-github"><i class='bx bxl-github'></i> View on GitHub</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="https://github.com/MalinduJayasinghe/Personal_Portfolio/tree/master"
+                       target="_blank" class="card">
+                        <img src="../Assets/images/personal_portfolio_image.jpg" alt="Personal Portfolio" class="card-image">
+                        <p class="card-badge">Personal Portfolio</p>
+                        <h2 class="card-title">An interactive Personal Portfolio built with HTML, CSS, and JavaScript.</h2>
+                        <div class="card-footer">
+                            <div class="card-tags">
+                                <span class="card-tag">HTML</span>
+                                <span class="card-tag">CSS</span>
+                                <span class="card-tag">JS</span>
+                            </div>
+                            <span class="card-github"><i class='bx bxl-github'></i> View on GitHub</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="https://github.com/MalinduJayasinghe/Stock-Management-System"
+                       target="_blank" class="card">
+                        <img src="../Assets/images/stock_management_image.jpg" alt="Stock Management System" class="card-image">
+                        <p class="card-badge">Stock Management System</p>
+                        <h2 class="card-title">A simple stock management system coded to work through a terminal.</h2>
+                        <div class="card-footer">
+                            <div class="card-tags">
+                                <span class="card-tag">JAVA</span>
+                            </div>
+                            <span class="card-github"><i class='bx bxl-github'></i> View on GitHub</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="https://github.com/MalinduJayasinghe/POS_System"
+                       target="_blank" class="card">
+                        <img src="../Assets/images/pos_system_image.jpg" alt="Connect 4 Game" class="card-image">
+                        <p class="card-badge">POS System</p>
+                        <h2 class="card-title">A Single Page Application (SPA) POS System with Customer, Item, Order and Order History screens.</h2>
+                        <div class="card-footer">
+                            <div class="card-tags"><span class="card-tag">JAVASCRIPT</span></div>
+                            <div class="card-tags"><span class="card-tag">BOOTSTRAP</span></div>
+                            <span class="card-github"><i class='bx bxl-github'></i> View on GitHub</span>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <a href="assignment.html" class="assignment-wide-btn">
+            <i class='bx bx-book-open'></i>
+            <span>Assignments</span>
+            <i class='bx bx-right-arrow-alt assignment-arrow'></i>
         </a>
 
-        <!-- Navigation Bar-->
-        <nav class = "navbar">
+    </div>
+</section>
 
-            <!-- Close button (mobile only) -->
-            <button class="navbar-close" id="navbar-close" aria-label="Close menu">&times;</button>
+<!-- ///////////////////// CONTACT SECTION ///////////////////// -->
+<section class ="contact" id = "contact">
+    <div class ="contact-content">
 
-            <!-- Navigation  -->
-            <a href="#home" class ="default">Home</a>
-            <a href="#about">About</a>
-            <a href="#education">Education</a>
-            <a href="#skills">Skills</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <!-- Section Label -->
+        <span class="section-label">GET IN TOUCH</span>
 
-        <!-- Menu (Mobile) -->
-        <div class="mobile-menu" id="mobile-menu">
-            <span></span>
-            <span></span>
-            <span></span>
+        <!-- Heading -->
+        <h2 class="contact-heading">
+            Think I have the skills <br> you're looking for ?
+        </h2>
+
+        <!-- Subtext -->
+        <p class="contact-subtext">
+            Send me an email or contact me – I'd love to hear about your project
+        </p>
+
+        <!-- Contact Details -->
+        <div class="contact-details">
+            <a href="mailto:jayasinghemalindu3@gmail.com" class="contact-item">
+                <i class='bx bx-envelope'></i>
+                <span>jayasinghemalindu3@gmail.com</span>
+            </a>
+            <a href="tel:0779460086" class="contact-item">
+                <i class='bx bx-phone'></i>
+                <span>077 946 0086</span>
+            </a>
         </div>
 
-    </header>
-
-    <!-- ////////////////////////////// Home Content Section ////////////////////////////// -->
-    <section class ="home" id ="home">
-
-        <!-- Home Content - Left -->
-        <div class ="home-content">
-            <h1>Hi, I'm Malindu <em>Jayasinghe</em></h1>
-            <h3><!-- Displays Software Engineer and Backend Developer --></h3>
-            <div class ="button">
-                <a href="#projects"> Projects </a>
-                <a href="#contact">Let's Talk</a>
-            </div>
+        <!-- Social Links -->
+        <div class="social-links">
+            <a href="https://github.com/MalinduJayasinghe" target="_blank" class="social-icon" aria-label="GitHub">
+                <i class='bx bxl-github'></i>
+            </a>
+            <a href="https://medium.com/@jayasinghemalindu3" target="_blank" class="social-icon" aria-label="Medium">
+                <i class='bx bxl-medium'></i>
+            </a>
+            <a href="https://www.linkedin.com/in/malindu-jayasinghe-647a4b362/" target="_blank" class="social-icon" aria-label="LinkedIn">
+                <i class='bx bxl-linkedin'></i>
+            </a>
         </div>
 
-        <!-- Right: profile photo -->
-        <div class="home-image">
-            <img src="../Assets/images/Homepage_image.jpg" alt="Malindu Jayasinghe" />
-        </div>
-    </section>
-
-    <!-- ////////////////////////////// About Section ////////////////////////////// -->
-    <section class ="about" id="about">
-        <div class ="about-content">
-
-            <!-- Top Label -->
-            <span class="section-label">WHO AM I ?</span>
-
-            <!-- Section Title -->
-            <h2 class="section-title">About Me</h2>
-
-            <!-- Bio -->
-            <p class="about-bio">
-                I'm a passionate developer and aspiring game developer based in Sri Lanka,
-                with a deep love for programming. I bring together strong technical skills
-                and a keen eye to make functional and reliable software.
-            </p>
-
-            <!-- Interests -->
-            <div class="about-tags-group">
-                <h4>Interests</h4>
-                <div class="tags">
-                    <span class="tag">Web Development</span>
-                    <span class="tag">Backend Development</span>
-                    <span class="tag">Game Development</span>
-                </div>
-            </div>
-
-            <!-- Goals -->
-            <div class="about-tags-group">
-                <h4>Goals</h4>
-                <div class="tags">
-                    <span class="tag">Build impactful products</span>
-                    <span class="tag">Lifelong learning</span>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- ////////////////////////////// Education Section ////////////////////////////// -->
-    <section class ="education" id="education">
-        <div class ="education-content">
-
-            <!-- Top Label -->
-            <span class="section-label">ACADEMIC BACKGROUND</span>
-
-            <!-- Section Title -->
-            <h2 class="section-title">Education</h2>
-
-            <!-- Timeline -->
-            <div class="timeline">
-
-                <!-- IJSE Degree -->
-                <div class="timeline-item left">
-                    <div class="timeline-content">
-                        <span class="timeline-date">2025 – 2027</span>
-                        <h3 class="timeline-degree">BSc (Hons) in Software Engineering</h3>
-                        <p class="timeline-school">IJSE</p>
-                    </div>
-                    <div class="timeline-dot"></div>
-                </div>
-
-                <!-- ESOFT Diploma -->
-                <div class="timeline-item right">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <span class="timeline-date">2023 – 2024</span>
-                        <h3 class="timeline-degree">Diploma in English & IT</h3>
-                        <p class="timeline-school">ESOFT Metro College</p>
-                    </div>
-                </div>
-
-                <!-- ESOFT Foundation -->
-                <div class="timeline-item left">
-                    <div class="timeline-content">
-                        <span class="timeline-date">2021 – 2022</span>
-                        <h3 class="timeline-degree">Foundation in English & IT</h3>
-                        <p class="timeline-school">ESOFT Metro College</p>
-                    </div>
-                    <div class="timeline-dot"></div>
-                </div>
-
-                <!-- A/L -->
-                <div class="timeline-item right">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <span class="timeline-date">2022 – 2024</span>
-                        <h3 class="timeline-degree">Advanced Level Certificate</h3>
-                        <p class="timeline-school">Lyceum International School</p>
-                    </div>
-                </div>
-
-                <!-- O/L -->
-                <div class="timeline-item left">
-                    <div class="timeline-content">
-                        <span class="timeline-date">2020 – 2022</span>
-                        <h3 class="timeline-degree">Ordinary Level Certificate</h3>
-                        <p class="timeline-school">Lyceum International School</p>
-                    </div>
-                    <div class="timeline-dot"></div>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
-    <!-- ////////////////////////////// Skills Section ////////////////////////////// -->
-    <section class ="skills" id="skills">
-        <div class ="skills-content">
-
-            <!-- Top Label -->
-            <span class="section-label">WHAT I DO</span>
-
-            <!-- Section Title -->
-            <h2 class="section-title">Skills</h2>
-
-            <!-- Skills Grid -->
-            <div class="skills-grid">
-
-                <!-- Skill Card — Java -->
-                <div class="skill-card">
-                    <div class="skill-card-header">
-                        <div class="skill-icon">
-                            <i class="devicon-java-plain"></i>
-                        </div>
-                        <h3>Java</h3>
-                    </div>
-                    <p>Object-oriented application development, backend services, and desktop apps.</p>
-                </div>
-
-                <!-- Skill Card — Python -->
-                <div class="skill-card">
-                    <div class="skill-card-header">
-                        <div class="skill-icon">
-                            <i class="devicon-python-plain"></i>
-                        </div>
-                        <h3>Python</h3>
-                    </div>
-                    <p>Scripting, automation, and server-side development with Python.</p>
-                </div>
-
-                <!-- Skill Card — HTML5 -->
-                <div class="skill-card">
-                    <div class="skill-card-header">
-                        <div class="skill-icon">
-                            <i class="devicon-html5-plain"></i>
-                        </div>
-                        <h3>HTML 5</h3>
-                    </div>
-                    <p>Semantic, accessible markup and modern HTML5 designs for the web.</p>
-                </div>
-
-                <!-- Skill Card — CSS -->
-                <div class="skill-card">
-                    <div class="skill-card-header">
-                        <div class="skill-icon">
-                            <i class="devicon-css3-plain"></i>
-                        </div>
-                        <h3>CSS</h3>
-                    </div>
-                    <p>Responsive layouts, animations, and polished UI styling with CSS3.</p>
-                </div>
-
-                <!-- Skill Card — JavaScript -->
-                <div class="skill-card">
-                    <div class="skill-card-header">
-                        <div class="skill-icon">
-                            <i class="devicon-javascript-plain"></i>
-                        </div>
-                        <h3>JavaScript</h3>
-                    </div>
-                    <p>Dynamic, interactive web experiences and modern web development.</p>
-                </div>
-
-                <!-- Skill Card — OOP -->
-                <div class="skill-card">
-                    <div class="skill-card-header">
-                        <div class="skill-icon">
-                            <i class='bx bx-code-curly'></i>
-                        </div>
-                        <h3>OOP</h3>
-                    </div>
-                    <p> Object creation, encapsulation, inheritance, and polymorphism principles.</p>
-                </div>
-
-                <!-- Skill Card — ORM -->
-                <div class="skill-card">
-                    <div class="skill-card-header">
-                        <div class="skill-icon">
-                            <i class='bx bx-data'></i>
-                        </div>
-                        <h3>ORM</h3>
-                    </div>
-                    <p>Database mapping and querying using Hibernate and Lombok.</p>
-                </div>
-
-                <!-- Skill Card — JasperSoft -->
-                <div class="skill-card">
-                    <div class="skill-card-header">
-                        <div class="skill-icon">
-                            <i class='bx bxs-report'></i>
-                        </div>
-                        <h3>JasperSoft</h3>
-                    </div>
-                    <p>Designing and generating dynamic reports and data visualisations.</p>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
-    <!-- ////////////////////////////// Gallery Section ////////////////////////////// -->
-    <section class="gallery" id="gallery">
-        <div class="gallery-content">
-
-            <span class="section-label">MOMENTS & WORK</span>
-            <h2 class="section-title">Gallery</h2>
-
-            <div class="swiper gallery-swiper">
-                <div class="swiper-wrapper">
-
-                    <div class="swiper-slide gallery-slide">
-                        <div class="gallery-item">
-                            <img src="../Assets/images/gallery_image_01.jpeg" alt="Gallery Image 1" />
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide gallery-slide">
-                        <div class="gallery-item">
-                            <img src="../Assets/images/gallery_image_02.jpeg" alt="Gallery Image 2" />
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide gallery-slide">
-                        <div class="gallery-item">
-                            <img src="../Assets/images/gallery_image_03.jpeg" alt="Gallery Image 3" />
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide gallery-slide">
-                        <div class="gallery-item">
-                            <img src="../Assets/images/gallery_image_04.jpeg" alt="Gallery Image 4" />
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide gallery-slide">
-                        <div class="gallery-item">
-                            <img src="../Assets/images/gallery_image_05.jpeg" alt="Gallery Image 5" />
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide gallery-slide">
-                        <div class="gallery-item">
-                            <img src="../Assets/images/gallery_image_06.jpeg" alt="Gallery Image 6" />
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide gallery-slide">
-                        <div class="gallery-item">
-                            <img src="../Assets/images/gallery_image_07.jpeg" alt="Gallery Image 7" />
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="swiper-pagination gallery-pagination"></div>
-                <div class="swiper-button-prev gallery-prev"></div>
-                <div class="swiper-button-next gallery-next"></div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- ////////////////////////////// Projects Section ////////////////////////////// -->
-
-    <section class="projects" id="projects">
-        <div class="projects-content">
-
-            <div class="projects-header">
-                <div>
-                    <span class="section-label">MY WORK</span>
-                    <h2 class="section-title">Projects</h2>
-                </div>
-            </div>
-
-            <div class="swiper projects-swiper">
-                <div class="swiper-wrapper">
-
-                    <div class="swiper-slide">
-                        <a href="https://github.com/MalinduJayasinghe/Connect_4_Game_Project"
-                           target="_blank" class="card">
-                            <img src="../Assets/images/connect_4_image.jpg" alt="Connect 4 Game" class="card-image">
-                            <p class="card-badge">Connect 4 Game</p>
-                            <h2 class="card-title">A Connect 4 Game with an AI player built using an MCTS algorithm.</h2>
-                            <div class="card-footer">
-                                <div class="card-tags"><span class="card-tag">JAVA</span></div>
-                                <span class="card-github"><i class='bx bxl-github'></i> View on GitHub</span>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <a href="https://github.com/MalinduJayasinghe/Inventory-Control-System"
-                           target="_blank" class="card">
-                            <img src="../Assets/images/inventory_control_image.jpg" alt="Inventory Control System" class="card-image">
-                            <p class="card-badge">Inventory Control System</p>
-                            <h2 class="card-title">A simple inventory control system for a small bookshop with stock and report features.</h2>
-                            <div class="card-footer">
-                                <div class="card-tags">
-                                    <span class="card-tag">JAVA</span>
-                                    <span class="card-tag">SQL</span>
-                                </div>
-                                <span class="card-github"><i class='bx bxl-github'></i> View on GitHub</span>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <a href="https://github.com/MalinduJayasinghe/Personal_Portfolio/tree/master"
-                           target="_blank" class="card">
-                            <img src="../Assets/images/personal_portfolio_image.jpg" alt="Personal Portfolio" class="card-image">
-                            <p class="card-badge">Personal Portfolio</p>
-                            <h2 class="card-title">An interactive Personal Portfolio built with HTML, CSS, and JavaScript.</h2>
-                            <div class="card-footer">
-                                <div class="card-tags">
-                                    <span class="card-tag">HTML</span>
-                                    <span class="card-tag">CSS</span>
-                                    <span class="card-tag">JS</span>
-                                </div>
-                                <span class="card-github"><i class='bx bxl-github'></i> View on GitHub</span>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <a href="https://github.com/MalinduJayasinghe/Stock-Management-System"
-                           target="_blank" class="card">
-                            <img src="../Assets/images/stock_management_image.jpg" alt="Stock Management System" class="card-image">
-                            <p class="card-badge">Stock Management System</p>
-                            <h2 class="card-title">A simple stock management system coded to work through a terminal.</h2>
-                            <div class="card-footer">
-                                <div class="card-tags">
-                                    <span class="card-tag">JAVA</span>
-                                </div>
-                                <span class="card-github"><i class='bx bxl-github'></i> View on GitHub</span>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <a href="https://github.com/MalinduJayasinghe/POS_System"
-                           target="_blank" class="card">
-                            <img src="../Assets/images/pos_system_image.jpg" alt="Connect 4 Game" class="card-image">
-                            <p class="card-badge">POS System</p>
-                            <h2 class="card-title">A Single Page Application (SPA) POS System with Customer, Item, Order and Order History screens.</h2>
-                            <div class="card-footer">
-                                <div class="card-tags"><span class="card-tag">JAVASCRIPT</span></div>
-                                <div class="card-tags"><span class="card-tag">BOOTSTRAP</span></div>
-                                <span class="card-github"><i class='bx bxl-github'></i> View on GitHub</span>
-                            </div>
-                        </a>
-                    </div>
-
-                </div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- ///////////////////// CONTACT SECTION ///////////////////// -->
-    <section class ="contact" id = "contact">
-        <div class ="contact-content">
-
-            <!-- Section Label -->
-            <span class="section-label">GET IN TOUCH</span>
-
-            <!-- Heading -->
-            <h2 class="contact-heading">
-                Think I have the skills <br> you're looking for ?
-            </h2>
-
-            <!-- Subtext -->
-            <p class="contact-subtext">
-                Send me an email or contact me – I'd love to hear about your project
-            </p>
-
-            <!-- Contact Details -->
-            <div class="contact-details">
-                <a href="mailto:jayasinghemalindu3@gmail.com" class="contact-item">
-                    <i class='bx bx-envelope'></i>
-                    <span>jayasinghemalindu3@gmail.com</span>
-                </a>
-                <a href="tel:0779460086" class="contact-item">
-                    <i class='bx bx-phone'></i>
-                    <span>077 946 0086</span>
-                </a>
-            </div>
-
-            <!-- Social Links -->
-            <div class="social-links">
-                <a href="https://github.com/MalinduJayasinghe" target="_blank" class="social-icon" aria-label="GitHub">
-                    <i class='bx bxl-github'></i>
-                </a>
-                <a href="https://medium.com/@jayasinghemalindu3" target="_blank" class="social-icon" aria-label="Medium">
-                    <i class='bx bxl-medium'></i>
-                </a>
-                <a href="https://www.linkedin.com/in/malindu-jayasinghe-647a4b362/" target="_blank" class="social-icon" aria-label="LinkedIn">
-                    <i class='bx bxl-linkedin'></i>
-                </a>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- JavaScript Links -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-    <script src="script.js"></script>
+    </div>
+</section>
+
+<!-- JavaScript Links -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>

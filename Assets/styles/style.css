@@ -822,6 +822,69 @@ body {
     opacity: 1;
 }
 
+/* ///////////////////// Assigment Section ///////////////////// */
+
+/*  Wide Assignment Button  */
+.assignment-wide-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    width: 100%;
+    margin-top: 40px;
+    padding: 18px 32px;
+    background: transparent;
+    border: 1.5px solid var(--gold);
+    border-radius: 12px;
+    color: var(--gold);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    transition: color 400ms;
+}
+
+
+
+.assignment-wide-btn::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--gold);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 400ms ease;
+}
+
+.assignment-wide-btn:hover::before {
+    transform: scaleX(1);
+}
+
+.assignment-wide-btn span,
+.assignment-wide-btn i {
+    position: relative;
+    z-index: 1;
+    transition: color 400ms;
+}
+
+.assignment-wide-btn:hover span,
+.assignment-wide-btn:hover i {
+    color: var(--bg-dark);
+}
+
+.assignment-wide-btn i { font-size: 22px; }
+
+.assignment-arrow {
+    margin-left: auto;
+    transition: transform 300ms, color 400ms;
+}
+
+.assignment-wide-btn:hover .assignment-arrow {
+    transform: translateX(6px);
+}
+
 /* ///////////////////// CONTACT SECTION ///////////////////// */
 
 /* Base styling */
