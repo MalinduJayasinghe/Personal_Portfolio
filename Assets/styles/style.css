@@ -680,7 +680,9 @@ body {
 
 /* Hide custom cursor on touch devices */
 @media (hover: none) {
-    #cursor-dot { display: none; }
+    #cursor-dot {
+        display: none;
+    }
 }
 
 /* ////////////////////////////// Typing cursor ////////////////////////////// */
@@ -693,8 +695,12 @@ body {
 }
 
 @keyframes blink {
-    0%, 100% { opacity: 1; }
-    50%       { opacity: 0; }
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
 }
 
 
